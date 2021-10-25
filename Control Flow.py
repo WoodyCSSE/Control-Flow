@@ -19,4 +19,12 @@ pin = input("Choose a 4-digit PIN: ")
 print("\nThank you",first_name + ",we see that you set your PIN to",pin)
 
 print("\nWould you like to make a transaction through our Automated Teller Machine")
+atm = input("Yes or No: ").lower()
 
+if atm == "yes":
+    print("\n *******************************************************************************************\n")
+
+
+
+else:
+    print("\n Have a nice day",first_name,last_name,", please come back and visit soon." )
