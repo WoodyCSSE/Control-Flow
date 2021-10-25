@@ -27,4 +27,4 @@ if atm == "yes":
 
 
 else:
-    print("\n Have a nice day",first_name,last_name,", please come back and visit soon." )
+    print("\n Have a nice day",first_name,last_name + ", please come back and visit soon." )
