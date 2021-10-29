@@ -45,6 +45,9 @@ if atm == "yes":
             depoAmount = int(input("Enter amount of money you want to deposit: "))
             balance = balance + depoAmount
             print("Your new balance is: $" + str(balance))
+
+        else:
+            print("Your current balance is: $" + str(balance))
             
         
     else:
